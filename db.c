@@ -14,7 +14,6 @@ int main(void) {
             exit(EXIT_SUCCESS);
         } else {
             printf("Unrecognized command %s.\n", input_buffer->buffer);
-            exit(EXIT_FAILURE);
         }
     }
 }

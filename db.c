@@ -9,7 +9,7 @@ int main(void) {
         print_prompt();
         read_input(input_buffer);
 
-        if (strcmp(input_buffer->buffer, ".exit")) {
+        if (strcmp(input_buffer->buffer, ".exit") == false) {
             close_input_buffer(input_buffer);
             exit(EXIT_SUCCESS);
         } else {
